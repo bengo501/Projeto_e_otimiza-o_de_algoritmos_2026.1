@@ -1,0 +1,7 @@
+
+        Respondas às perguntas dadas aqui, para iniciarmos nossa revisão e aprofundamento sobre Recursão.
+        Data: até 04/03, às 19:15
+
+    O que é mais expressivo: iteração ou recursão? Explique sua resposta.
+    Qual é o acréscimo de custo computacional sempre introduzido pela recursão? Explique sua resposta.
+    O que é Recursão na Cauda?

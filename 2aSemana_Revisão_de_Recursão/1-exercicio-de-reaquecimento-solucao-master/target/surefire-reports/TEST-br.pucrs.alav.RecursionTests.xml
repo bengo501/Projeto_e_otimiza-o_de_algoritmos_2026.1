@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.pucrs.alav.RecursionTests" time="0.073" tests="45" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/test-classes:/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/classes:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/mcmor/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/mcmor/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/mcmor/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/mcmor/.sdkman/candidates/java/17.0.1-tem/lib"/>
+    <property name="sun.java.command" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/surefire/surefirebooter7620061803663877518.jar /mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/surefire 2022-03-07T21-53-51_940-jvmRun1 surefire6846901842005658448tmp surefire_05859985372216433586tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/test-classes:/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/classes:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/mcmor/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/mcmor/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/mcmor/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/mcmor/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/mcmor"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/home/mcmor/.sdkman/candidates/java/17.0.1-tem"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao/target/surefire/surefirebooter7620061803663877518.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="mcmor"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.60.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/home/mcmor/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/mnt/d/Users/mcmor/Dropbox/M/WSGitLocalNew/#AlgosDemosApps/1-exercicio-de-reaquecimento-solucao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSomaVet1" classname="br.pucrs.alav.RecursionTests" time="0.022"/>
+  <testcase name="testSomaVet2" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testFFunction1" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testFFunction2" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testFFunction3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testFFunction4" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testFFunction5" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testSomaSerie1" classname="br.pucrs.alav.RecursionTests" time="0.007"/>
+  <testcase name="testSomaSerie2" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testSomaSerie3" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testSomaSerie4" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testSomaSerie5" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testAckermarn1" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn2" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn4" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn5" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testAckermarn6" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn7" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn8" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testAckermarn9" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testreverseStr1" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testreverseStr2" classname="br.pucrs.alav.RecursionTests" time="0.002"/>
+  <testcase name="testreverseStr3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testreverseStr4" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testreverseStr5" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testreverseStr6" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testSomaIncr1" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testSomaIncr2" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testSomaIncr3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn10" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testAckermarn11" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testAckermarn12" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testVetSlice1" classname="br.pucrs.alav.RecursionTests" time="0.004"/>
+  <testcase name="testVetSlice2" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testVetSlice3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testMultNat1" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testMultNat2" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testMultNat3" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testMultNat4" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testMultNat5" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testMultNat6" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testSomaIncrAlt1" classname="br.pucrs.alav.RecursionTests" time="0"/>
+  <testcase name="testSomaIncrAlt2" classname="br.pucrs.alav.RecursionTests" time="0.001"/>
+  <testcase name="testSomaIncrAlt3" classname="br.pucrs.alav.RecursionTests" time="0"/>
+</testsuite>
